@@ -2,10 +2,13 @@ pipeline {
   
    agent any
    stages {
+   triggers {
+        cron('* * * * *')
+    }
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'echo "cron job added"' 
+           sh 'echo "cronadded in jenkinsfile"' 
         }
      }
      
