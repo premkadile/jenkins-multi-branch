@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'echo "jenkins multi1"' 
+           sh 'echo "checking build perodic"' 
         }
      }
      
