@@ -8,7 +8,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'echo "checking build perodic"' 
+           sh 'echo "cron job added"' 
         }
      }
      
