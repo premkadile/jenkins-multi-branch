@@ -8,7 +8,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'echo "cronadded in mainjenkinsfile"' 
+           sh 'echo "test1"' 
         }
      }
      
